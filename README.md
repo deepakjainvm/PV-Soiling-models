@@ -1,10 +1,19 @@
-# The folder contains modified kimber and modified hsu functions. There are three modified improved versions of original kimber model and two modified improved versions of original hsu model. These models can be used to predict the losses due to soiling on PV panels. 
+# Prediction of Soiling on PV Modules
+
+## Overview
+The original Kimber and HSU models assume that the soiling ratio returns to 1 (completely clean) after a rain event. However, in reality, this is not always the case. This repository contains modified Kimber and modified HSU functions, offering improved versions of the original models. These modifications consider that the cleaning effect depends on both the soiling ratio and rainfall.
+
+### Models Included
+- Three modified and improved versions of the original Kimber model
+- Two modified and improved versions of the original HSU model
+
+### Features
+- Improved accuracy in predicting losses due to soiling on PV panels
+- Consideration of realistic soiling recovery patterns after rain events
 
 
-
-### Required packages
-
-- python>=3.7
-- numpy
-- pandas
-- scipy
+### Required Packages
+- Python >= 3.7
+- NumPy
+- Pandas
+- SciPy
