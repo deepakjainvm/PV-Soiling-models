@@ -17,3 +17,7 @@ The original Kimber and HSU models assume that the soiling ratio returns to 1 (c
 - NumPy
 - Pandas
 - SciPy
+
+### Acknowledgements
+Our model is improved and modified based on [Kimber Model](https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.soiling.kimber.html) and [HSU Model](https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.soiling.hsu.html) from the PVLIB Python library.
+
